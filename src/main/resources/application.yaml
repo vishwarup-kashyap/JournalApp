@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: journal-application
+  data:
+    mongodb:
+      uri: mongodb+srv://vishwarupkashyap2002:ZNBQtN9G1m9zmfGm@cluster123.miuy2ps.mongodb.net/?retryWrites=true&w=majority&appName=Cluster123
+      database: journaldb
+      auto-index-creation: true
+server:
+  port: 8081
+
+#logging:
+#  level:
+#    com:
+#      springboot:
+#        journalApp: DEBUG
